@@ -19,6 +19,7 @@ class MyThreadLoop extends Thread{
     public void run(){
         for (int i = 0; i < 400; i++) {
             System.out.println("Thread name is - " + Thread.currentThread().getName() + " - " + i);
+            System.out.println("Thread name is - " + Thread.currentThread().getName() + " - " + i);
         }
     }
 }
